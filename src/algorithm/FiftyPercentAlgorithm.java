@@ -13,7 +13,7 @@ public class FiftyPercentAlgorithm {
 	 * 
 	 * @return
 	 */
-	public static boolean calculate() {
+	public static boolean Calculate() {
 		long sysTime = System.currentTimeMillis();
 		long var = 0;
 

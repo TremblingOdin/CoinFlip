@@ -14,8 +14,8 @@ public class Coin {
 	 * 
 	 * @return boolean true or false of whether coin landed on heads
 	 */
-	public boolean flip() {
-		heads = FiftyPercentAlgorithm.calculate();
+	public boolean Flip() {
+		heads = FiftyPercentAlgorithm.Calculate();
 		
 		return heads;
 	}
@@ -26,10 +26,10 @@ public class Coin {
 	 * @param int trials to be run
 	 * @return boolean[] of all flips
 	 */
-	public boolean[] flip(int trials) {
+	public boolean[] Flip(int trials) {
 		boolean[] flips = new boolean[trials];
 		for(int i = 0; i < trials; i++) {
-			flips[i] = flip();
+			flips[i] = Flip();
 		}
 		
 		return flips;
