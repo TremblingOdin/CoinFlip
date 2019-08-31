@@ -1,1 +1,2 @@
-Heads: 41Tails: 59
+Heads: 51.93%
+Tails: 48.07%

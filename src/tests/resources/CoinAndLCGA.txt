@@ -1,0 +1,2 @@
+Heads: 50%
+Tails: 49%
